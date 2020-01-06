@@ -1,0 +1,254 @@
+p {
+  font-family: 'Fira Code', monospace;
+  color: white;
+  font-size: 1vw; 
+}
+
+h1 {
+  font-family: 'Fira Code', monospace;
+  margin-left: 18%;
+  color: white;
+  font-size: 2.5vw;
+}
+
+h3 {
+  font-family: 'Fira Code', monospace;
+  color: white;
+  font-size: 2.5vw;
+}
+
+h7 {
+  font-family: 'Fira Code', monospace;
+  color: white;
+  font-size: 2vw;
+}
+
+body {
+  background-image: url(../images/code.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+  background-image: url(../images/banner.jpg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 13vh;
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+  
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+.flex-container {
+
+  margin: 0 auto;
+  text-align: left;
+  width: 960px;
+  display: flex;
+  align-items: flex-start;
+  opacity: 0.95;
+}
+
+.flex-container > div {
+  background-position: center;
+
+  border-radius: 115px;
+
+  padding: 1%;
+  width: 100%;
+  margin: 5px;
+  text-align: justify;
+  line-height: 18px;
+  font-size: 1vw;
+  font-family: 'Fira Code', monospace;
+  opacity: 0.95;
+}
+
+.flex-container-aboutme {
+  background-color: #141313;
+  opacity: 0.95;
+  margin: 0 auto;
+  text-align: left;
+  width: 66.6%;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+
+.container {
+  background-color: #141313;
+  padding: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  font-family: 'Fira Code', monospace;
+  opacity: 0.95;
+}
+
+.footer {
+  margin: 0 auto;
+  padding-top: 15px;
+  background-color: #141313;
+  width: 100%;
+  text-align: center;
+  align-items: initial;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  font-family: 'Fira Code', monospace;
+  opacity: 0.95;
+}
+
+.ftext {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 1vw;
+}
+
+.contactme {
+  margin-right: 10%;
+  font-size: 1.2vw;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  margin-left: 20px;
+  font-size: 1vw;
+}
+
+.col-75 {
+  float: left;
+  width: 71.5%;
+  margin-top: 10px;
+  font-size: 1vw;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  margin-left: 45%;
+  margin-top: 20px;
+  font-size: 1vw;
+}
+
+input[type="text"], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.description {
+  font-family: 'Fira Code', monospace;
+  margin-left: 1%;   
+  color: white;
+}
+
+.aboutinfo {
+align-items: initial;
+margin-left: 20px;
+margin-top: 5px;
+font-size: 1vw;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66.6%;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+  border-color: white;
+}
+
+.title {
+  background-color: #141313;
+  font-family: 'Fira Code', monospace;
+  padding-top: 2.5%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  height: 15%;
+  box-sizing: border-box;
+  font-size: 1vw;
+}
+
+html { 
+  font-size:100%; 
+}
+
+.project {
+  min-width: 0;
+  height: auto;
+  float: left;
+  margin: 5px;
+  position: relative;
+}
+
+img { 
+  min-width: 0;
+  width: 100%; 
+  height: auto;
+}
+
+.flex-container img {
+  min-width: 0;
+  width: 100%; 
+  height: auto;
+}
+
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; 
+  }
+}
+
+@media (min-width: 640px) { 
+  body {font-size:1rem;
+  } 
+} 
+
+@media (min-width:960px) { 
+  body {font-size:1.2rem;
+  } 
+} 
+
+@media (min-width:1100px) {
+  body {font-size:1.5rem;
+  } 
+} 
