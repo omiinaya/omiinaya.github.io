@@ -1,11 +1,11 @@
 h1 {
     margin-left: 18%;
-    font-size: 2.5vw;
+    font-size: 35px;
     font-family: 'Fira Code', monospace;
     color: white;
 }
 h2 {
-    font-size: 2vw;
+    font-size: 28px;
     font-family: 'Fira Code', monospace;
     color: white;
 }
@@ -26,7 +26,7 @@ nav li {
 }
 .nav-links a {
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 18px;
     color: white;
 }
 .nav-links {
@@ -43,13 +43,13 @@ body {
     background-repeat: no-repeat;
 }
 .container-about {
-    margin: 0 auto;
+    margin: 0 auto;    
     background-color: #141313;
     border-style: solid;
     border-width: 3px;
     border-color: white;
     opacity: 0.95;
-    width: 66%;
+    width: 960px;
     padding: 1%;
 }
 .container-portfolio {
@@ -59,18 +59,18 @@ body {
     border-width: 3px;
     border-color: white;
     opacity: 0.95;
-    width: 66%;
+    width: 960px;
     padding: 1%;
 }
 .container-contact {
     margin: 0 auto;
-    width: 66%;
+    width: 960px;
 }
 .container-form {
     margin: 0 auto;
     background-color: #141313;
     padding: 20px;
-    width: 66%;
+    width: 960px;
     border-style: solid;
     border-width: 3px;
     border-color: white;
@@ -83,12 +83,13 @@ body {
     border-width: 3px;
     border-top: 0px;
     border-color: white;
-    width: 66%;
+    width: 960px;
 }
 .container-text {
-    font-size: 1vw;
+    font-size: 15px;
     font-family: 'Fira Code', monospace;
     color: white;
+    margin-left: -20px;
 }
 img {
     width: 100%;
@@ -107,7 +108,7 @@ img {
     font-family: 'Fira Code', monospace;
     opacity: 0.95;
     color: white;
-    font-size: 1vw;
+    font-size: 13px;
 }
 .project {
     min-width: 0;
@@ -131,14 +132,14 @@ img {
 }
 .col-25 {
     float: left;
-    width: 25%;
-    margin-top: 6px;
+    width: 20%;
+    margin-top: 10px;
     margin-left: 20px;
     font-size: 1vw;
 } 
 .col-75 {
     float: left;
-    width: 71.5%;
+    width: 75%;
     margin-top: 10px;
     font-size: 1vw;
 }
@@ -153,4 +154,95 @@ input[type="text"], select, textarea {
     padding: 12px;
     box-sizing: border-box;
     resize: vertical;
+}
+@media screen and (max-width:950px) {
+    .container-about {
+        width:100%;
+    }
+    .container-image {
+        width:100%;
+    }
+    .container-portfolio {
+        width:100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .container-about {
+        width:100%;
+    }
+    .container-image {
+        width:100%;
+    }
+    .container-portfolio {
+        width:100%;
+    }
+    .nav-links {
+        width: 40%;
+    }
+}
+@media screen and (max-width:414px) {
+    h1 {
+        font-size: 20px;
+        margin: 0 auto; 
+    }
+    h2 {
+        margin-top: 30%;
+        font-size: 15px;
+    }
+    .nav-links {
+        margin-top: 10%;
+        margin-right: -10%;
+        display: inline;
+    }
+    .nav-links a {
+        font-size: 13px;
+    }
+    .container-about {
+        width:100%;
+    }
+    .container-about img {
+        width: 410%;
+        margin: 60%;
+    }
+    .container-text {
+        text-align:left;
+        margin-top: 135%;
+        margin-right: 15%;
+        margin-left: -20%;
+    }
+    .footer {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:375px) {
+    h1 {
+        font-size: 18px;
+        margin: 0 auto; 
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .nav-links {
+        margin-top:10%;
+        display: inline;
+    }
+    .nav-links a {
+        font-size: 13px;
+    }
+    .container-about {
+        width:100%;
+    }
+    .container-about img {
+        width: 410%;
+        margin: 60%;
+    }
+    .container-text {
+        text-align:left;
+        margin-top: 135%;
+        margin-right: 15%;
+        margin-left: -20%;
+    }
+    .footer {
+        font-size: 10px;
+    }
 }
